@@ -1,6 +1,6 @@
 image:
   repository: koush/scrypted
-  tag: full
+  tag: latest
   pullPolicy: Always
 liteImage:
   repository: koush/scrypted
