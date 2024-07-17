@@ -1,18 +1,18 @@
 {
-    "9.9.9": {
+    "5.1.2": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/stable/scrypted/9.9.9",
-        "last_update": "2024-05-29 12:35:14",
+        "location": "/home/runner/_work/catalog/catalog/stable/scrypted/5.1.2",
+        "last_update": "2024-06-25 12:35:14",
         "required_features": [
             "definitions/timezone",
             "normalize/interfaceConfiguration",
             "definitions/certificate",
             "definitions/interface"
         ],
-        "human_version": "0.105.0_9.9.9",
-        "version": "9.9.9",
+        "human_version": "0.114.0_5.1.2",
+        "version": "5.1.2",
         "chart_metadata": {
             "annotations": {
                 "truecharts.org/category": "media",
@@ -21,7 +21,7 @@
                 "truecharts.org/train": "stable"
             },
             "apiVersion": "v2",
-            "appVersion": "0.105.0",
+            "appVersion": "0.114.0",
             "dependencies": [
                 {
                     "name": "common",
@@ -56,7 +56,7 @@
                 "https://hub.docker.com/r/koush/scrypted"
             ],
             "type": "application",
-            "version": "9.9.9"
+            "version": "5.1.2"
         },
         "app_metadata": null,
         "schema": {
