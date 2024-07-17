@@ -1119,7 +1119,7 @@
             ],
             "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/actualserver.webp"
         },
-        "adguard-home": {
+        "adguardhome-home": {
             "app_readme": "<p>Free and open source, powerful network-wide ads &amp; trackers blocking DNS server.</p>\n<p>This App is supplied by TrueCharts, for more information visit the manual: <a href=\"https://truecharts.org/charts/stable/adguard-home\">https://truecharts.org/charts/stable/adguard-home</a></p>\n<hr />\n<p>TrueCharts can only exist due to the incredible effort of our staff.\nPlease consider making a <a href=\"https://truecharts.org/sponsor\">donation</a> or contributing back to the project any way you can!</p>",
             "categories": [
                 "media"
@@ -1129,10 +1129,10 @@
             "healthy_error": null,
             "home": "https://truecharts.org/charts/stable/adguard-home",
             "location": "/home/runner/_work/catalog/catalog/stable/adguard-home",
-            "latest_version": "10.0.10",
-            "latest_app_version": "0.107.50",
-            "latest_human_version": "0.107.50_10.0.10",
-            "last_update": "2024-05-29 12:35:14",
+            "latest_version": "10.1.1",
+            "latest_app_version": "0.107.52",
+            "latest_human_version": "0.107.52_10.1.1",
+            "last_update": "2024-07-04 12:35:14",
             "name": "adguard-home",
             "recommended": false,
             "title": "Adguard-home",
