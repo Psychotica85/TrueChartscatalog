@@ -782,7 +782,7 @@
                                                                     "description": "This port exposes the container port on the service",
                                                                     "schema": {
                                                                         "type": "int",
-                                                                        "default": 10582,
+                                                                        "default": 81,
                                                                         "required": true
                                                                     }
                                                                 }
@@ -866,7 +866,7 @@
                                                                     "description": "This port exposes the container port on the service",
                                                                     "schema": {
                                                                         "type": "int",
-                                                                        "default": 10583,
+                                                                        "default": 80,
                                                                         "required": true
                                                                     }
                                                                 }
@@ -950,7 +950,7 @@
                                                                     "description": "This port exposes the container port on the service",
                                                                     "schema": {
                                                                         "type": "int",
-                                                                        "default": 10584,
+                                                                        "default": 443,
                                                                         "required": true
                                                                     }
                                                                 }
