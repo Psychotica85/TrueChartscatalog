@@ -31,15 +31,6 @@
                     "alias": "",
                     "tags": [],
                     "import-values": []
-                },
-                {
-                    "name": "mariadb",
-                    "version": "14.0.10",
-                    "repository": "oci://tccr.io/truecharts",
-                    "condition": "mariadb.enabled",
-                    "alias": "",
-                    "tags": [],
-                    "import-values": []
                 }
             ],
             "deprecated": false,

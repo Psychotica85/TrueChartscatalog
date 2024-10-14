@@ -8,7 +8,7 @@ service:
       main:
         targetPort: 81
         protocol: http
-        port: 10582
+        port: 81
   web:
     enabled: true
     ports:
@@ -16,7 +16,7 @@ service:
         enabled: true
         targetPort: 80
         protocol: http
-        port: 10583
+        port: 80
   websecure:
     enabled: true
     ports:
@@ -24,7 +24,7 @@ service:
         enabled: true
         targetPort: 443
         protocol: https
-        port: 10584
+        port: 443
 persistence:
   data:
     enabled: true
@@ -35,8 +35,8 @@ persistence:
     mountPath: /etc/letsencrypt
     size: 256Gi
 mariadb:
-  enabled: true
-  includeCommon: true
+    enabled: false
+  includeCommon: false
   mariadbUsername: npm
   mariadbDatabase: npm
 portal:
@@ -77,12 +77,4 @@ workload:
                     - /bin/check-health
           env:
             DISABLE_IPV6: true
-            DB_MYSQL_PORT: 3306
-            DB_MYSQL_NAME: "{{ .Values.mariadb.mariadbDatabase }}"
-            DB_MYSQL_USER: "{{ .Values.mariadb.mariadbUsername }}"
-            DB_MYSQL_HOST:
-              secretKeyRef:
-                expandObjectName: false
-                name: '{{ printf "%s-%s" .Release.Name "mariadbcreds" }}'
-                key: plainhost
-            DB_MYSQL_PASSWORD: "{{ .Values.mariadb.password }}"
+
