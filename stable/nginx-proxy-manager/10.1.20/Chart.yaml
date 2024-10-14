@@ -13,13 +13,6 @@ dependencies:
     alias: ""
     tags: []
     import-values: []
-  - name: mariadb
-    version: 14.0.20
-    repository: oci://tccr.io/truecharts
-    condition: mariadb.enabled
-    alias: ""
-    tags: []
-    import-values: []
 deprecated: false
 description: Managing Nginx proxy hosts with a simple, powerful interface.
 home: https://truecharts.org/charts/stable/nginx-proxy-manager

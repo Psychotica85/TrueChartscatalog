@@ -560,7 +560,7 @@ questions:
                             description: This port exposes the container port on the service
                             schema:
                               type: int
-                              default: 10582
+                              default: 81
                               required: true
         - variable: web
           label: Web Entrypoint Configuration
@@ -611,7 +611,7 @@ questions:
                             description: This port exposes the container port on the service
                             schema:
                               type: int
-                              default: 10583
+                              default: 80
                               required: true
         - variable: websecure
           label: Web Secure Entrypoint Configuration
@@ -662,7 +662,7 @@ questions:
                             description: This port exposes the container port on the service
                             schema:
                               type: int
-                              default: 10584
+                              default: 443
                               required: true
   - variable: scaleExternalInterface
     description: 'Add External Interfaces (Experimental, might change or be removed without further notice)'
