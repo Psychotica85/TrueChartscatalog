@@ -30,4 +30,4 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/adguard-home
   - https://hub.docker.com/r/adguard/adguardhome
 type: application
-version: 10.1.2
+version: 10.1.3
